@@ -1,6 +1,6 @@
-*
-!.vimrc
-!.vim
-!.vim/**
-!.gitignore
-!.profile
+/*
+!/.vimrc
+!/.vim
+!/.vim/**
+!/.gitignore
+!/.profile
