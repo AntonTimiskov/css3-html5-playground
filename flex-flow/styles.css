@@ -1,0 +1,30 @@
+.container {
+    text-align:justify;
+   
+    /* IE only */
+    display: -ms-flexbox;
+    display: flex;
+    
+    /* IE: not supported */
+    flex-direction: row; /* column, column-reverse, row-reverse */
+    justify-content: space-between; /* flex-start, flex-end, center, space-between, space-around */
+    align-items: stretch; /* flex-start, flex-end, center, baseline, stretch */
+    flex-wrap: nowrap; /* wrap, wrap-reverse */
+    /* end of IE: not supported */
+    
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    width :100%;
+}
+
+.column {
+    margin: 0 20px;
+    
+    /* IE only */
+    -ms-flex: 1;
+    flex: 1;
+    
+    width: 30%;
+
+}

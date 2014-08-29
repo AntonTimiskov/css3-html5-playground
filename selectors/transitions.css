@@ -1,0 +1,12 @@
+#transitions  a, #transitions a:link, #transitions a:visited {
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+  background: red;
+  color: white;
+  padding: 5px;
+}
+
+#transitions a:hover, #transitions a:active {
+  background: white;
+  color: red;
+}

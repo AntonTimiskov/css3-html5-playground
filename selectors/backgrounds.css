@@ -1,0 +1,49 @@
+#backgrounds {
+  position: relative;
+  height: 300px;
+}
+
+.size {
+  width: 320px;
+  height: 240px;
+}
+
+#back, #front {
+  position: absolute;
+}
+
+#back {
+  left: 30px;
+}
+
+#front {
+  top: 30px;
+}
+
+#back {
+  background: url('1.jpg');
+}
+
+#front {
+  background: url('2.jpg');
+}
+
+#back.boxsize, #front.boxsize {
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+
+#back.dropshadow, #front.dropshadow {
+  -webkit-box-shadow: 5px 5px 5px #eee, 8px 8px 8px #aaa;
+  -moz-box-shadow 5px 5px 5px #eee, 8px 8px 8px #aaa;
+  box-shadow: 5px 5px 5px #eee, 8px 8px 8px #aaa;
+}
+
+#back.rotate, #front.rotate {
+  -webkit-transform: rotate(10deg);
+  -moz-transform rotate(10deg);
+  box-transform: rotate(10deg);
+}
+

@@ -1,0 +1,14 @@
+{
+  "name": "css3-playground",
+  "version": "0.1.0",
+  "dependencies": {
+    "modernizr": "*"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "private": true
+}
+
